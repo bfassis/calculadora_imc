@@ -97,7 +97,7 @@ class _HomeState extends State<Home> {
                     controller: heightController,
                     validator: (value){
                       if(value.isEmpty){
-                        return "Insira sua Altura";
+                        return "Insira sua Altura!";
                       }
                     }
                   ),
